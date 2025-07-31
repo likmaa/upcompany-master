@@ -1,0 +1,71 @@
+
+.img-120{
+	width: 120px;
+	height: 120px;
+}
+.img-70{
+	height: 70px;
+    width: auto;
+}
+
+.media .media-body p{
+	font-size: 1.1rem;
+}
+.media .media-body .description{
+
+	min-height: 60px; 
+}
+.form-control-lg.srt-desc{
+	font-size: 0.85rem;
+}
+.table tbody td .hover{
+	visibility: hidden;
+}
+.table-hover tbody tr:hover td .hover{
+	visibility: visible;
+}
+
+.app-header{
+	background-color: #ef6c00;
+}
+.app-header__logo{
+	background-color: #e65100;
+}
+.app-menu__item.active, .app-menu__item:hover, .app-menu__item:focus, .app-menu__item:active{
+    border-left-color: #ef6c00;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #ef6c00;
+    border-color: #ef6c00;
+}
+.btn-primary:hover,.btn-primary:active, .btn-primary:focus {
+    color: #FFF;
+    background-color: #e65100;
+    border-color: #e65100;
+}
+a{
+	color: #ef6c00;
+}
+a:hover{
+	color: #e65100;
+}
+.form-control:focus{
+	border-color: #ef6c00;
+}
+.animated-checkbox input[type="checkbox"]:checked + .label-text:before{
+	color: #ef6c00;
+}
+.material-half-bg .cover{
+	background-color: #ef6c00;
+}
+
+div.status button i.fa-times-circle::before,div.status button i.fa-trash::before{
+    color: #942a25;
+}
+div.status button i.fa-check-circle::before{
+    color: #378137;
+}
+div.status button i.fa-clock-o::before{
+    color: #0099cc;
+}
